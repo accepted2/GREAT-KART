@@ -27,7 +27,12 @@ SECRET_KEY = 'django-insecure-vl-h)&^rzae+37o@gnm_*n--2^ef!a4plaf0_06(w#dn#o-^$+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+# Разрешенные хосты
+ALLOWED_HOSTS = ['great-kart-1.onrender.com']
+
+# Доверенные источники для CSRF
+CSRF_TRUSTED_ORIGINS = ['https://great-kart-1.onrender.com']
+
 
 
 # Application definition
